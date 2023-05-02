@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() 
+{
+	int huegang;
+	int teacher = 30;
+		    
+	printf("수강생의 공격력을 입력하세요 : ");
+	
+	scanf("%d", &huegang);
+
+	printf("수강생의 공격력이 %d입니다.\n", huegang;
+			        
+	teacher -= huegang;
+	printf("수강생이 교수님을 공격하여 %d의 데미지를 입혔습니다.\n", huegang);
+	printf("교수님의 HP : %d\n\n", teacher);
+					    
+	if (enemy_hp <= 0) 
+	{
+	printf("휴강을 얻었습니다!\nHappy End\n");
+	return 0;
+	}
+	else
+	{  
+	printf("교수님의 과제로 인해 수강생이 뒤졌습니다!\nGame Over\n");
+	return 0;
+	}
+}
